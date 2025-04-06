@@ -2,9 +2,11 @@
    In a world where the fittest determines the hierarchy, only one winner shall be crowned as the royal of survival. It rises to the top of the food chain, being determined by its speed. The fiasco to mightiness: “Animalympics” is the event wherein competitive animals are induced to prolong their species and race each other for the throne to see which one will be the new ruler of the wild.
 
 ### How do you navigate?
-  1. Choose between the *Print* and *UI* folder version of the game (Only print version for now).
-  2. Go to *src* folder.
-  3. Open the program and enjoy!
+  1. Click *Code* button (green)
+  2. Choose *Codespaces* column and click *Animalympics*
+  3. On VSC, choose between the *Print* and *UI* folder version (Only print version for now).
+  4. Go to *src* folder.
+  5. Open the program and enjoy!
 
 ### Project Overview
 
