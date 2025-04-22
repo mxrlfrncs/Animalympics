@@ -34,12 +34,12 @@ class Animalss {
             try {
                 bet = scanner.nextInt();
                 
-                if (bet <= 0) {
+                if (bet < 0) {
                     System.out.println("Bet must be a positive number.");
                     System.out.print("Enter Bet Amount: ");
                 } else if (bet > inibal) { 
                     System.out.println("\nBet exceeds balance, try again.");
-                    System.out.println("Add funds through GCASH: 09691781539\n");
+                    System.out.println("Add funds through GCASH: 09691781539");
                     System.out.print("Enter Bet Amount: "); 
                 } else {
                     break; // Exit loop 
@@ -56,8 +56,8 @@ class Animalss {
     // Balance is zero or less?
     public static void checkBalanceStatus(int balance) {
         if (balance <= 0) {
-            System.out.println("Insufficient balance.");
-            System.out.println("Add funds through GCASH: 09691781539\n");
+            System.out.println("Empty balance.");
+            System.out.println("Add funds through GCASH: 09691781539");
         }
     } 
 }
@@ -96,7 +96,7 @@ public class AnimalympicsPrint {
                 // Check balance (from the Animalss class)
                 if (inibal == 0) {
                     Animalss.checkBalanceStatus(inibal);
-                    System.out.println("Race stated due to insufficient balance");
+                    System.out.println("Race stated due to empty balance");
                     break; // Exit early 
                 }
             }
@@ -108,7 +108,7 @@ public class AnimalympicsPrint {
             }
 
             // Show bets
-            System.out.println("Total Bet           : " + totalbet);
+            System.out.println("Total Bet       : " + totalbet);
             
             // Commence Race
             System.out.println("\n================================================");
