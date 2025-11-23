@@ -4,9 +4,8 @@
 ### How do you navigate?
   1. Click *Code* button (green)
   2. Choose *Codespaces* column and click *Animalympics*
-  3. On VSC, choose between the *Print* and *UI* folder version (Only print version for now).
-  4. Go to *src* folder.
-  5. Open the program and enjoy!
+  3. On VSC, choose between the *Print* and *UI* folder version (Only print version for now) 
+  4. Open the program and enjoy!
 
 ### Project Overview
 
